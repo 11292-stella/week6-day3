@@ -133,6 +133,12 @@ table {
   border-spacing: 0;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   font-family: "Arial, sans-serif";
 }
