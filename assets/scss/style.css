@@ -183,7 +183,7 @@ h1 {
   margin: 48px;
 }
 
-.btn-colorButton1 .btn-colorButton1 {
+.btn-colorButton1 {
   background-color: #0e6cff;
   color: azure;
   padding: 10px 20px;
@@ -191,44 +191,11 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
 }
-.btn-colorButton1 .btn-colorButton1:hover {
+.btn-colorButton1:hover {
   background-color: #0055da;
-}
-.btn-colorButton1 .btn-colorButton2 {
-  background-color: #ff820e;
-  color: azure;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.btn-colorButton1 .btn-colorButton2:hover {
-  background-color: #da6900;
-}
-.btn-colorButton1 .btn-colorButton3 {
-  background-color: #258616;
-  color: azure;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.btn-colorButton1 .btn-colorButton3:hover {
-  background-color: #195a0f;
 }
 
-.btn-colorButton2 .btn-colorButton1 {
-  background-color: #0e6cff;
-  color: azure;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.btn-colorButton2 .btn-colorButton1:hover {
-  background-color: #0055da;
-}
-.btn-colorButton2 .btn-colorButton2 {
+.btn-colorButton2 {
   background-color: #ff820e;
   color: azure;
   padding: 10px 20px;
@@ -236,44 +203,11 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
 }
-.btn-colorButton2 .btn-colorButton2:hover {
+.btn-colorButton2:hover {
   background-color: #da6900;
-}
-.btn-colorButton2 .btn-colorButton3 {
-  background-color: #258616;
-  color: azure;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.btn-colorButton2 .btn-colorButton3:hover {
-  background-color: #195a0f;
 }
 
-.btn-colorButton3 .btn-colorButton1 {
-  background-color: #0e6cff;
-  color: azure;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.btn-colorButton3 .btn-colorButton1:hover {
-  background-color: #0055da;
-}
-.btn-colorButton3 .btn-colorButton2 {
-  background-color: #ff820e;
-  color: azure;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.btn-colorButton3 .btn-colorButton2:hover {
-  background-color: #da6900;
-}
-.btn-colorButton3 .btn-colorButton3 {
+.btn-colorButton3 {
   background-color: #258616;
   color: azure;
   padding: 10px 20px;
@@ -281,6 +215,6 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
 }
-.btn-colorButton3 .btn-colorButton3:hover {
+.btn-colorButton3:hover {
   background-color: #195a0f;
 }/*# sourceMappingURL=style.css.map */

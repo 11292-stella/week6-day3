@@ -4,31 +4,21 @@ $button-colors: (
   colorButton3: #258616,
 );
 
-@mixin button-styles {
-  @each $name, $color in $button-colors {
-    .btn-#{$name} {
-      background-color: $color;
-      color: azure;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
+@mixin button-styles($color) {
+  background-color: $color;
+  color: azure;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 
-      &:hover {
-        background-color: darken($color, 10%);
-      }
-    }
+  &:hover {
+    background-color: darken($color, 10%);
   }
 }
 
-.btn-colorButton1 {
-  @include button-styles;
-}
-
-.btn-colorButton2 {
-  @include button-styles;
-}
-
-.btn-colorButton3 {
-  @include button-styles;
+@each $name, $color in $button-colors {
+  .btn-#{$name} {
+    @include button-styles($color);
+  }
 }
