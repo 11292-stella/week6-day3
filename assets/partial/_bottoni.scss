@@ -1,7 +1,7 @@
 $button-colors: (
-  colorBotton1: #0e6cff,
-  colorBotton2: #ff820e,
-  colorBotton3: #258616,
+  colorButton1: #0e6cff,
+  colorButton2: #ff820e,
+  colorButton3: #258616,
 );
 
 @mixin button-styles {
@@ -21,4 +21,14 @@ $button-colors: (
   }
 }
 
-@include button-styles;
+.btn-colorButton1 {
+  @include button-styles;
+}
+
+.btn-colorButton2 {
+  @include button-styles;
+}
+
+.btn-colorButton3 {
+  @include button-styles;
+}
