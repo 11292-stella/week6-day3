@@ -1,9 +1,37 @@
+@mixin flexnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 @mixin flexCenter {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+@mixin flexGrid($columns: 2) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+  & > * {
+    width: calc(100% / #{$columns});
+  }
+}
+
 header {
-  @include flexCenter();
+  @include flexnav;
+}
+
+ul {
+  @include flexnav;
+}
+
+li {
+  margin: 10px;
+}
+
+.cani {
+  @include flexGrid(3);
 }

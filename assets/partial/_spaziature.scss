@@ -15,3 +15,7 @@ $spacings: (
 }
 @include spacing-classes("padding");
 @include spacing-classes("margin");
+
+body {
+  @include spacing-classes;
+}
