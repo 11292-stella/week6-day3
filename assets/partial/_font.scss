@@ -1,0 +1,21 @@
+$font-f: "Arial, sans-serif";
+
+body {
+  font-family: $font-f;
+}
+
+$font-sm: 12px;
+$font-md: 16px;
+$font-lg: 24px;
+$font-xl: 32px;
+$font-xxl: 48px;
+
+@mixin title-big {
+  font-size: $font-xxl;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+h1 {
+  @include title-big;
+}

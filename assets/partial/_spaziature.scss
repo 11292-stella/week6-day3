@@ -1,0 +1,17 @@
+$spacings: (
+  sm: 4px,
+  normal: 8px,
+  md: 16px,
+  lg: 24px,
+  xxl: 48px,
+);
+
+@mixin spacing-classes($property) {
+  @each $size, $value in $spacings {
+    .#{$property}-#{$size} {
+      #{$property}: $value;
+    }
+  }
+}
+@include spacing-classes("padding");
+@include spacing-classes("margin");

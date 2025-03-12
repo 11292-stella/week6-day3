@@ -1,0 +1,24 @@
+$button-colors: (
+  colorBotton1: #0e6cff,
+  colorBotton2: #ff820e,
+  colorBotton3: #258616,
+);
+
+@mixin button-styles {
+  @each $name, $color in $button-colors {
+    .btn-#{$name} {
+      background-color: $color;
+      color: azure;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: darken($color, 10%);
+      }
+    }
+  }
+}
+
+@include button-styles;
